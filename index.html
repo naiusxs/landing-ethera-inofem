@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ethera · Inofem, bienestar femenino en polvo</title>
+    <meta
+      name="description"
+      content="Ethera Inofem: una fórmula en polvo de 450 g que combina mioinositol con ingredientes botánicos y DHA, creada para acompañar una mirada más consciente del bienestar femenino."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ethera · Inofem" />
+    <meta
+      property="og:description"
+      content="Una fórmula en polvo de 450 g con 11 ingredientes, pensada para acompañar tu bienestar femenino."
+    />
+    <meta property="og:image" content="assets/brand/jar.webp?v=20261028" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#fffcf0" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="preload" href="fonts/garamond-bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/gilroy-500.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/brand/jar.webp?v=20261028" as="image" />
+    <link rel="stylesheet" href="css/site.css?v=20261038" />
+    <link rel="stylesheet" href="css/ethera-banner.css?v=20261028" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <!-- Aura de color (WebGL). Es decorativa; el contenido no depende de ella. -->
+    <canvas id="aura" aria-hidden="true"></canvas>
+
+    <div class="rainbow" aria-hidden="true"></div>
+
+    <header class="nav" id="nav">
+      <div class="wrap nav__in">
+        <a class="nav__brand" href="#" aria-label="Ethera, ir al inicio">
+          <img src="assets/brand/logo-color.webp" alt="Ethera" width="692" height="252" />
+        </a>
+        <nav class="nav__links" aria-label="Principal">
+          <a href="#formula">La fórmula</a>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#filosofia">Filosofía</a>
+          <a href="#experiencias">Experiencias</a>
+          <a href="#planes">Planes</a>
+          <a href="#faq">Dudas</a>
+        </nav>
+        <a class="btn btn--sm" href="#planes">Descubrir oferta</a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- ================= HERO ================= -->
+      <section class="hero" id="inicio">
+        <div class="wrap hero__grid">
+          <div class="hero__copy">
+            <p class="pill hero__pill">Ethera · Functional Blend</p>
+            <h1 class="hero__title" data-split>
+              Bienestar femenino, <em>pensado para ti.</em>
+            </h1>
+            <p class="hero__lede">
+              Una fórmula que combina mioinositol con ingredientes botánicos y DHA, creada para acompañar una mirada más
+              consciente del bienestar femenino.
+            </p>
+            <div class="hero__cta">
+              <a class="btn" href="#planes" data-magnet>Quiero descubrir Inofem</a>
+              <a class="btn btn--ghost" href="#formula" data-magnet>Conoce la fórmula</a>
+            </div>
+            <ul class="checks">
+              <li>450 g</li>
+              <li>11 ingredientes</li>
+              <li>Formato en polvo</li>
+            </ul>
+          </div>
+
+          <div class="hero__stage" aria-hidden="false">
+            <div class="hero__disc"></div>
+            <img
+              class="hero__jar"
+              src="assets/brand/jar.webp?v=20261028"
+              alt="Frasco de Ethera Inofem, 450 g"
+              width="900"
+              height="1059"
+              fetchpriority="high"
+            />
+            <span class="tag tag--a">15 porciones</span>
+            <span class="tag tag--b">30 g por porción</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= LA FÓRMULA ================= -->
+      <section class="sec" id="formula">
+        <div class="wrap">
+          <header class="head">
+            <p class="eyebrow">La fórmula</p>
+            <h2 class="h2">Una fórmula creada <em>para acompañar tus ciclos</em></h2>
+            <p class="lede">
+              Una sinergia de activos naturales y nutrientes clave para quienes buscan honrar sus ritmos internos, cuidar
+              su salud hormonal y vivir con mayor armonía corporal.
+            </p>
+          </header>
+
+          <div class="cards" id="ingredients">
+            <article class="card" data-spot>
+              <span class="card__ic card__ic--img"><img src="assets/ing/mioinositol.webp" alt="" width="160" height="160" loading="lazy" /></span>
+              <h3>Mioinositol</h3>
+              <p>Nutriente ampliamente estudiado por su rol en la sensibilidad a la glucosa y el soporte al balance hormonal y ovárico.</p>
+            </article>
+            <article class="card" data-spot>
+              <span class="card__ic card__ic--img"><img src="assets/ing/maca.webp" alt="" width="160" height="160" loading="lazy" /></span>
+              <h3>Maca Roja</h3>
+              <p>Adaptógeno andino apreciado por acompañar la vitalidad femenina, el sistema endocrino y la energía equilibrada sin sobreestimular.</p>
+            </article>
+            <article class="card" data-spot>
+              <span class="card__ic card__ic--img"><img src="assets/ing/azafran.webp" alt="" width="160" height="160" loading="lazy" /></span>
+              <h3>Azafrán</h3>
+              <p>Extracto botánico valorado por su estrecha relación con la serenidad, el estado de ánimo y el confort emocional a lo largo del mes.</p>
+            </article>
+            <article class="card" data-spot>
+              <span class="card__ic card__ic--img"><img src="assets/ing/angelica.webp" alt="" width="160" height="160" loading="lazy" /></span>
+              <h3>Raíz de Angélica</h3>
+              <p>Planta de uso milenario en la botánica femenina, reconocida por favorecer el bienestar y la ligereza durante las distintas fases del ciclo.</p>
+            </article>
+            <article class="card" data-spot>
+              <span class="card__ic card__ic--img"><img src="assets/ing/fenogreco.webp" alt="" width="160" height="160" loading="lazy" /></span>
+              <h3>Fenogreco y Linaza</h3>
+              <p>Fuentes de fitoestrógenos y fibra que apoyan el metabolismo, la digestión y la eliminación equilibrada de metabolitos.</p>
+            </article>
+            <article class="card" data-spot>
+              <span class="card__ic card__ic--img"><img src="assets/ing/dha.webp" alt="" width="160" height="160" loading="lazy" /></span>
+              <h3>DHA, Manzanilla y Toronjil</h3>
+              <p>Ácido graso combinado con botánicos calmantes que aportan nutrición celular y una sensación natural de descanso.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CÓMO FUNCIONA ================= -->
+      <section class="sec" id="como-funciona">
+        <div class="wrap">
+          <header class="head">
+            <p class="eyebrow">Cómo funciona</p>
+            <h2 class="h2">Una fórmula. <em>Un momento para volver a tu centro.</em></h2>
+            <p class="lede">
+              Incorpora Inofem a tus mañanas o tardes y descubre una forma práctica de cuidar tu salud femenina desde la nutrición y la presencia.
+            </p>
+          </header>
+
+          <ol class="steps" id="steps">
+            <li class="step">
+              <span class="step__n">1</span>
+              <span class="step__ic">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M12 10h24l-3 28a3 3 0 0 1-3 3H18a3 3 0 0 1-3-3Z" />
+                  <path d="M13.5 20h21" />
+                  <path d="M28 6 22 24" />
+                </svg>
+              </span>
+              <h3>Prepara tu fórmula</h3>
+              <p>Disuelve 30 g de Inofem en agua, siguiendo las indicaciones de su etiquetado.</p>
+            </li>
+            <li class="step">
+              <span class="step__n">2</span>
+              <span class="step__ic">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 22c-4-4-10-1-8 4 1 3 5 5 8 7 3-2 7-4 8-7 2-5-4-8-8-4Z" />
+                  <path d="M6 32c4 0 7 2 10 5l6 1M42 32c-4 0-7 2-10 5l-6 1" />
+                </svg>
+              </span>
+              <h3>Reconoce tus fases</h3>
+              <p>
+                Acompaña tu cuerpo entendiendo que tu energía, tus emociones y tus necesidades cambian naturalmente a lo largo de cada ciclo.
+              </p>
+            </li>
+            <li class="step">
+              <span class="step__n">3</span>
+              <span class="step__ic">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <circle cx="24" cy="24" r="15" />
+                  <circle cx="24" cy="24" r="8" />
+                  <circle cx="24" cy="24" r="1.6" />
+                </svg>
+              </span>
+              <h3>Dale espacio a la calma</h3>
+              <p>
+                Tómate unos minutos para disfrutar tu bebida. Un entorno sereno ayuda a tu sistema nervioso a asimilar mejor cada hábito.
+              </p>
+            </li>
+            <li class="step">
+              <span class="step__n">4</span>
+              <span class="step__ic">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 8v6M24 34v6M8 24h6M34 24h6M13 13l4 4M31 31l4 4M35 13l-4 4M17 31l-4 4" />
+                  <circle cx="24" cy="24" r="4" />
+                </svg>
+              </span>
+              <h3>Hazlo a tu manera.</h3>
+              <p>
+                Inofem es un pilar nutricional que complementa tu hidratación y descanso, no un sustituto de un estilo de vida consciente.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ================= LEMA (arcoíris de marca) ================= -->
+      <section class="e-banner" aria-label="Ethera">
+        <video class="e-banner__video" muted loop playsinline preload="none" poster="assets/brand/banner-poster.webp" data-src="assets/brand/banner.mp4" aria-hidden="true" tabindex="-1"></video>
+      </section>
+
+      <!-- ================= FILOSOFÍA ================= -->
+      <section class="sec" id="filosofia">
+        <div class="wrap split">
+          <div class="split__copy">
+            <p class="eyebrow">Nuestra filosofía</p>
+            <h2 class="h2">De la intención al <em>bienestar cotidiano</em></h2>
+            <p>
+              Ethera nace de una idea: el bienestar no tiene que ser una búsqueda constante de perfección. También puede
+              construirse a través de pequeñas decisiones, hábitos conscientes y curiosidad por aquello que incorporamos
+              a nuestra vida.
+            </p>
+            <p>Creemos en una forma de bienestar que une conocimiento, estética y atención a uno mismo.</p>
+            <p>No buscamos prometerte una transformación instantánea. Queremos invitarte a elegir con intención.</p>
+            <blockquote class="quote" id="quote">«El verdadero equilibrio comienza cuando aprendes a escuchar los ritmos de tu cuerpo.»</blockquote>
+          </div>
+          <figure class="split__fig">
+            <div class="panel panel--photo" data-float>
+              <img src="assets/photo/filosofia.webp" alt="Flor rosada de cerca" width="640" height="800" loading="lazy" />
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ================= MENTE Y PRESENCIA ================= -->
+      <section class="sec" id="presencia">
+        <div class="wrap split split--rev">
+          <figure class="split__fig">
+            <div class="panel panel--photo panel--photo-b" data-float>
+              <img src="assets/photo/presencia.webp" alt="Una mano acariciando un arbusto con flores rosadas" width="640" height="800" loading="lazy" />
+            </div>
+          </figure>
+          <div class="split__copy">
+            <p class="eyebrow">Mente y presencia</p>
+            <h2 class="h2">Haz espacio para <em>lo que importa</em></h2>
+            <p>
+              Vivimos rodeados de estímulos, pendientes y nuevas exigencias. En medio de todo eso, detenernos a elegir
+              cómo queremos vivir nuestro día también importa.
+            </p>
+            <p>
+              Para Ethera, el bienestar consciente no consiste en hacerlo todo. Consiste en prestar atención a lo que
+              eliges, construir hábitos propios y encontrar una forma más intencional de relacionarte contigo.
+            </p>
+            <p>Porque tu rutina también puede reflejar aquello que valoras.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EXPERIENCIAS ================= -->
+      <section class="sec" id="experiencias">
+        <div class="wrap">
+          <header class="head">
+            <p class="eyebrow">Experiencias Ethera</p>
+            <h2 class="h2">La experiencia de <em>nuestra comunidad</em></h2>
+            <p class="lede">
+              Cada mujer experimenta su bienestar de forma singular. Conoce las historias de quienes han hecho de Inofem
+              parte de su día a día.
+            </p>
+          </header>
+        </div>
+        <div class="carousel" id="carousel" tabindex="0" aria-label="Experiencias de la comunidad">
+          <ul class="carousel__track" id="carousel-track">
+            <li class="exp"><span>Próximamente</span></li>
+            <li class="exp"><span>Próximamente</span></li>
+            <li class="exp"><span>Próximamente</span></li>
+            <li class="exp"><span>Próximamente</span></li>
+          </ul>
+        </div>
+        <div class="wrap carousel__nav" id="carousel-nav">
+          <button class="round" data-carousel="prev" aria-label="Anterior"></button>
+          <button class="round round--next" data-carousel="next" aria-label="Siguiente"></button>
+        </div>
+      </section>
+
+      <!-- ================= PLANES ================= -->
+      <section class="sec" id="planes">
+        <div class="wrap">
+          <header class="head">
+            <p class="eyebrow">Planes</p>
+            <h2 class="h2">Invierte en <em>tu bienestar</em></h2>
+          </header>
+
+          <div class="plans">
+            <article class="plan" data-tilt>
+              <div class="plan__jars" aria-hidden="true">
+                <img src="assets/brand/jar.webp?v=20261028" alt="" width="300" height="353" loading="lazy" />
+              </div>
+              <h3>1 frasco</h3>
+              <p class="plan__price"><b data-price="1frasco">$109.900</b><small>COP</small></p>
+              <p class="plan__ship">Envío 3-5 días hábiles (costo adicional)</p>
+              <ul class="plan__list">
+                <li>450 g de fórmula en polvo</li>
+                <li>15 porciones de 30 g</li>
+              </ul>
+              <button class="btn btn--block" data-plan="1frasco" disabled>Muy pronto</button>
+            </article>
+
+            <article class="plan" data-tilt>
+              <div class="plan__jars" aria-hidden="true">
+                <img src="assets/brand/jar.webp?v=20261028" alt="" width="300" height="353" loading="lazy" />
+                <img src="assets/brand/jar.webp?v=20261028" alt="" width="300" height="353" loading="lazy" />
+              </div>
+              <h3>2 frascos</h3>
+              <p class="plan__price"><b data-price="2frascos">$189.900</b><small>COP</small></p>
+              <p class="plan__ship">Envío gratis (3-5 días hábiles)</p>
+              <ul class="plan__list">
+                <li>900 g de fórmula en polvo</li>
+                <li>30 porciones de 30 g</li>
+                <li>Ahorras $29.900</li>
+              </ul>
+              <button class="btn btn--block" data-plan="2frascos" disabled>Muy pronto</button>
+            </article>
+
+            <article class="plan" data-tilt>
+              <div class="plan__jars" aria-hidden="true">
+                <img src="assets/brand/jar.webp?v=20261028" alt="" width="300" height="353" loading="lazy" />
+                <img src="assets/brand/jar.webp?v=20261028" alt="" width="300" height="353" loading="lazy" />
+                <img src="assets/brand/jar.webp?v=20261028" alt="" width="300" height="353" loading="lazy" />
+              </div>
+              <h3>3 frascos</h3>
+              <p class="plan__price"><b data-price="3frascos">$239.900</b><small>COP</small></p>
+              <p class="plan__ship">Envío gratis (3-5 días hábiles)</p>
+              <ul class="plan__list">
+                <li>1.350 g de fórmula en polvo</li>
+                <li>45 porciones de 30 g</li>
+                <li>Ahorras $89.800</li>
+              </ul>
+              <button class="btn btn--block" data-plan="3frascos" disabled>Muy pronto</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PREGUNTAS ================= -->
+      <section class="sec" id="faq">
+        <div class="wrap wrap--narrow">
+          <header class="head">
+            <p class="eyebrow">Resuelve tus dudas</p>
+            <h2 class="h2">Todo lo que necesitas saber sobre <em>Inofem de Ethera</em></h2>
+          </header>
+
+          <div class="faq" id="faq-list">
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a1" id="q1">
+                  ¿Qué contiene Inofem Ethera?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a1" role="region" aria-labelledby="q1">
+                <div>
+                  <p>
+                    Mioinositol, Maca roja, Fenogreco, Linaza, Açaí, Camu, Canela, Raíz de angélica, Jengibre, Manzanilla,
+                    Toronjil y DHA, según el etiquetado del envase. Es un alimento en polvo a base de harina de coco.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a2" id="q2">
+                  ¿Cuánto producto trae el envase?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a2" role="region" aria-labelledby="q2">
+                <div><p>Cada frasco trae 450 g de contenido neto, aproximadamente 15 porciones de 30 g.</p></div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a3" id="q3">
+                  ¿Cómo se prepara?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a3" role="region" aria-labelledby="q3">
+                <div>
+                  <p>
+                    Disuelve 1 medida (30 g) en 200 ml de agua, leche o bebida vegetal, siguiendo las indicaciones del
+                    etiquetado.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a4" id="q4">
+                  ¿Contiene cafeína?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a4" role="region" aria-labelledby="q4">
+                <div>
+                  <p>
+                    Inofem no incluye guaraná ni otra fuente de cafeína entre sus ingredientes principales. Si eres
+                    sensible a la cafeína, estás en embarazo o lactancia, o tienes alguna condición de salud, consulta
+                    antes con un profesional.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a5" id="q5">
+                  ¿Qué beneficios puedo esperar?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a5" role="region" aria-labelledby="q5">
+                <div>
+                  <p>
+                    Inofem es una fórmula pensada para acompañar tu bienestar femenino y tus ritmos a lo largo del ciclo.
+                    No promete una transformación instantánea ni reemplaza el descanso, una alimentación equilibrada o
+                    los hábitos que cuidan tu bienestar. Cada mujer construye su propia relación con la fórmula.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a6" id="q6">
+                  ¿Cuándo debo consumirlo?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a6" role="region" aria-labelledby="q6">
+                <div>
+                  <p>
+                    Cuando encaje mejor en tu rutina: en tus mañanas o tardes, en un momento tranquilo para ti.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a7" id="q7">
+                  ¿Genera dependencia?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a7" role="region" aria-labelledby="q7">
+                <div>
+                  <p>
+                    Inofem es un alimento en polvo, no un medicamento. Si tienes dudas sobre tu consumo, consulta con un
+                    profesional de la salud.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a8" id="q8">
+                  ¿Cómo puedo comprarlo?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a8" role="region" aria-labelledby="q8">
+                <div>
+                  <p>Elige tu plan en la sección de planes y continúa al pago. El envío tarda de 3 a 5 días hábiles.</p>
+                </div>
+              </div>
+            </div>
+            <div class="qa">
+              <h3>
+                <button type="button" aria-expanded="false" aria-controls="a9" id="q9">
+                  ¿Cuánto cuesta?<i aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="qa__a" id="a9" role="region" aria-labelledby="q9">
+                <div>
+                  <p>
+                    1 frasco: $109.900 COP (envío con costo adicional). 2 frascos: $189.900 COP, envío gratis. 3
+                    frascos: $239.900 COP, envío gratis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= NUESTRA HISTORIA ================= -->
+      <section class="sec" id="historia">
+        <div class="wrap split">
+          <figure class="split__fig">
+            <ul class="values panel" aria-label="Valores de Ethera">
+              <li>Escucha inteligente</li>
+              <li>Presencia activa</li>
+              <li>Ritmo biológico</li>
+              <li>Intención funcional</li>
+              <li>Honestidad clínica</li>
+              <li>Sensibilidad consciente</li>
+            </ul>
+          </figure>
+          <div class="split__copy">
+            <p class="eyebrow">Nuestra historia</p>
+            <h2 class="h2">Detrás de Ethera hay una forma de entender el bienestar</h2>
+            <p>
+              Ethera explora el punto de encuentro entre el conocimiento botánico, la nutrición funcional y la manera en
+              que habitamos nuestro cuerpo.
+            </p>
+            <p>
+              Nuestra visión parte de una certeza: el bienestar femenino no es estático ni uniforme. Cada elección
+              merece información honesta, ingredientes de origen noble y un profundo respeto por tus ritmos naturales.
+            </p>
+            <p>
+              Creamos Inofem para quienes buscan acompañar su ciclo de manera consciente, construyendo hábitos duraderos
+              y relacionándose consigo mismas desde la calma y la intención.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CIERRE ================= -->
+      <section class="final" id="final">
+        <div class="final__orb" aria-hidden="true"></div>
+        <div class="wrap final__in">
+          <h2 class="h2 h2--xl">¿Listo para elegir <em>con intención?</em></h2>
+          <p>
+            Descubre Inofem: una fórmula en polvo de 450 g que reúne 11 ingredientes en una propuesta de bienestar
+            consciente.
+          </p>
+          <p>Tu rutina, tus elecciones, tu manera de vivir el bienestar.</p>
+          <a class="btn btn--lg" href="#planes" data-magnet>Descubrir oferta</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot__in">
+        <img src="assets/brand/logo-negro.webp" alt="Ethera" width="692" height="252" loading="lazy" />
+        <nav class="foot__links" aria-label="Redes y legal">
+          <a href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#" data-social="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="#" data-privacy target="_blank" rel="noopener noreferrer">Política de privacidad</a>
+        </nav>
+        <p class="foot__legal">© Ethera · Todos los derechos reservados.</p>
+      </div>
+      <p class="wrap foot__note">
+        Ethera es un alimento en polvo, no un medicamento, y no pretende diagnosticar, tratar ni prevenir
+        enfermedades. Consulta a un profesional de la salud si estás en embarazo o lactancia, tomas medicamentos o
+        tienes alguna condición médica.
+      </p>
+    </footer>
+    <div class="rainbow" aria-hidden="true"></div>
+
+    <!-- Aviso de cookies -->
+    <div class="cookies" id="cookies" role="region" aria-label="Aviso de cookies">
+      <p>
+        Usamos cookies y el píxel de Meta para medir resultados y mostrarte anuncios relevantes. Al navegar aceptas
+        nuestra <a href="#" data-privacy target="_blank" rel="noopener noreferrer">Política de privacidad</a>.
+      </p>
+      <button type="button" class="cookies__close" id="cookies-close" aria-label="Cerrar aviso">&#x2715;</button>
+    </div>
+
+    <!-- WhatsApp -->
+    <a class="wa" data-whatsapp href="#" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+        <path
+          d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.6.8 2 .8 2.1.1.1.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.1.1-.3.3-.1.6.2.3.7 1.2 1.5 1.9 1 .9 1.9 1.2 2.2 1.3.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.6.3.1.2.1.7-.1 1.2Z"
+        />
+      </svg>
+    </a>
+
+    <!-- Popup de descuento -->
+    <div class="pop" id="eth-popup" role="dialog" aria-modal="true" aria-labelledby="eth-popup-title">
+      <div class="pop__box">
+        <button type="button" class="pop__close" id="eth-popup-close" aria-label="Cerrar">&#x2715;</button>
+        <img class="pop__logo" src="assets/brand/logo-color.webp" alt="Ethera" width="692" height="252" />
+        <h2 id="eth-popup-title">Un 10% menos en tu primera compra</h2>
+        <p>Déjanos tu correo y te lo enviamos.</p>
+        <form id="eth-popup-form">
+          <input type="email" name="email" placeholder="Tu correo electrónico" autocomplete="email" required />
+          <label class="pop__consent">
+            <input type="checkbox" name="consent" required /> Acepto recibir correos de Ethera con novedades y ofertas, y
+            autorizo el tratamiento de mis datos según la política de tratamiento de datos.
+          </label>
+          <a class="pop__policy" href="#" data-privacy target="_blank" rel="noopener noreferrer"
+            >Ver política de tratamiento de datos</a
+          >
+          <button type="submit" class="btn btn--block">Quiero mi 10%</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="vendor/gsap.min.js"></script>
+    <script src="vendor/ScrollTrigger.min.js"></script>
+    <script type="module" src="js/main.js?v=20261030"></script>
+  </body>
+</html>

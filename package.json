@@ -1,0 +1,16 @@
+{
+  "name": "ethera-inofem-landing",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Landing de Ethera Inofem (HTML + CSS plano + GSAP + aura WebGL, sin build)",
+  "scripts": {
+    "vendor": "node -e \"const f=require('fs');f.mkdirSync('vendor',{recursive:true});['gsap/dist/gsap.min.js','gsap/dist/ScrollTrigger.min.js'].forEach(p=>f.copyFileSync('node_modules/'+p,'vendor/'+p.split('/').pop()))\"",
+    "serve": "npx http-server . -p 8080 -c-1"
+  },
+  "dependencies": {
+    "gsap": "3.12.5"
+  },
+  "devDependencies": {
+    "prettier": "3"
+  }
+}
